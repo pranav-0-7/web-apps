@@ -1,24 +1,27 @@
+
 h2{
 	float left;
 	display: inline-block;
 	background-color: black;
-	background: #999;
+	background: hsl(0, 100%, 25%);
 	padding: 12px 12px 18px 12px;
+	margin: 0px;
+	font-family: Courier New;
 	
 	
 }
 nav ul{
 	margin: 0;
-	padding: 0 0 0 15px;
+	padding: 10 0 0 15px;
 	display: inline-block;
 }
 
 nav ul li{
-	background: black;
+	background: hsl(0, 100%, 25%);
 	color: white;
 	display: inline-block;
 	list-style-type: none;
-	padding: 5px 15px;
+	padding: 5px 10px;
 }
 
 nav ul li a{
@@ -27,10 +30,10 @@ nav ul li a{
 
 header{
 	
-	background: #999;
+	background: hsl(0, 100%, 25%);
 	color: white;
 	display: inline-block;
-	padding: 15px 940px 15px 15px;
+	margin: 0px;
 }
 
 li{
@@ -40,25 +43,59 @@ li{
 }
 a{
 	display: inline-block;
-	background-color: black;
-}
-.row{
-	clear: both;
-}
-.col{
-	background:#333;
-	border-radius: 5px;
-	color: white;
-	padding: 10px;
-	display: inline-block;
-	margin: .5px;
-	width: 30%;
-
+	background-color: hsl(0, 100%, 25%);
 }
 body{
 	margin: 0;
-	background-color: silver;
+	background-color: hsl(0, 100%, 25%);
 }
 footer{
 	clear: both;
+	font-family: Courier New;
 }
+.img{
+	background-image:url("13071954_1084460421621701_2186852932940494868_o.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+.f1{
+	color: white;
+}
+
+.container{
+	position:relative;
+	text-align: center;
+	color: white;
+}
+.centered{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: brown;
+}
+.text-block{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	background: black;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-family: Arial;
+}
+.home1{
+	background-image: url("http://wallpaperget.com/images/superheroes-hd-wallpapers-1.jpg");
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+	background: hsl(0, 100%, 25%);
+}
+
+
