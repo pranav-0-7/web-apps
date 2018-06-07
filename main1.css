@@ -17,6 +17,7 @@ nav ul{
 }
 
 nav ul li{
+	
 	background: hsl(0, 100%, 25%);
 	color: white;
 	display: inline-block;
@@ -37,6 +38,7 @@ header{
 }
 
 li{
+
 	display: inline-block;
 	margin: 1px;
 	padding: 3px;
@@ -46,12 +48,13 @@ a{
 	background-color: hsl(0, 100%, 25%);
 }
 body{
+	vertical-align: text-top;
 	margin: 0;
 	background-color: hsl(0, 100%, 25%);
 }
 footer{
-	clear: both;
 	font-family: Courier New;
+
 }
 .img{
 	background-image:url("13071954_1084460421621701_2186852932940494868_o.jpg");
@@ -67,7 +70,6 @@ footer{
 }
 
 .container{
-	position:relative;
 	text-align: center;
 	color: white;
 }
@@ -89,6 +91,7 @@ footer{
 	font-family: Arial;
 }
 .home1{
+	position: fixed;
 	background-image: url("http://wallpaperget.com/images/superheroes-hd-wallpapers-1.jpg");
 	height: 100%;
 	background-position: center;
@@ -97,5 +100,96 @@ footer{
 	color: white;
 	background: hsl(0, 100%, 25%);
 }
+.c1{
 
+	margin: 0px;
+	background-color:black;
+	padding-right: 20px;
+
+}
+
+.avatar{
+	vertical-align: text-top;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+.textarea{
+	position: absolute;
+	transform: translate(25%,25%);
+
+}
+
+.av1{
+	border: 10px solid #ccc;
+	background-color: #eee;
+	border-radius: 5px;
+	padding: 16px;
+	margin: 16px 0px;
+}
+.av{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    background-color: silver;
+}
+.av::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.av img{
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.av span{
+	font-size: 20px;
+	margin-right: 15px;
+}
+.av img{
+	margin: auto;
+	display: inline-block;
+}
+
+}
+.av1 img{
+	float: left;
+	margin-right: 20px;
+	border-radius: 50%;
+}
+.av1 span{
+	font-size: 20px;
+	margin-right: 15px;
+}
+.av1 img{
+	margin: auto;
+	display: inline-block;
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+.title {
+    color: grey;
+    font-size: 18px;
+}
 
