@@ -1,0 +1,170 @@
+ /*p,a{
+	width: 100%;
+	margin: 1px;
+	padding: 10px;
+	border: 1px solid #000;
+	display: inline-block;
+	background: #eee;
+	font-family: arial;
+	line-height: 1.4em;
+	text-align: center;
+}
+.black p{
+
+	background: black;
+	color: white;
+	float: left;
+	display: inline-block;
+	line-height: 1.4em;
+
+}
+.blue p{
+	background: blue;
+	color: white;
+	line-height: 1.4em;
+	display: inline-block;
+	
+}
+
+.red p{
+	background: red;
+	color: white;
+	line-height: 1.4em;
+
+	display: inline-block;
+
+	
+}
+.total{
+	border: 1px solid black;
+	margin: 30px;
+	padding: 20px;
+	clear: both
+}
+.content{
+	margin-top: 10px
+	border: 1px solid black;
+	clear: both;
+
+}
+*/
+.wrapper{
+	content:"";
+	display: block;
+	clear: both;
+	z-index: 0;
+	position: relative;
+}
+
+.service h2, .service p{
+	color: black;
+	margin 10px 0;
+	text-align: center;
+}
+.services{
+	max height: 150px;
+	overflow: hidden;
+}
+
+.service{
+	 float: left;
+	 background: #eee;
+	 width: 29.33%;
+	 padding: 1%;
+	 margin: 1%;
+	 height: 140px;
+	 position: relative;
+}
+.service:nth-child(1){
+	top: 5px;
+}
+.service:nth-child(2){
+	top: 15px;
+}
+.service:nth-child(3){
+	top: 25px;
+}
+.content{
+	background:#f2f2f2;
+	padding: 10px;
+	clear: both;
+	margin: 20px 1%;
+}
+.content p{
+	-webkit-column-count:3;
+	column-count: 3;
+	-webkit-column-gap:50px;
+	column-gap: 50px;
+	-webkit-column-rule:1px solid black;
+	column-rule:1px solid black;
+	text-align: justify;
+}
+.services:after{
+	content: "";
+	display: block;
+	clear: both;
+	padding-top: 10px;
+}
+section,aside{
+display: block;
+float: left;
+width: 46%;
+margin: 1%;
+padding: 1%;
+background: #f2f2f2;
+}
+.column{
+	display: block;
+	content: "";
+	clear: both;
+}
+.content1 p{
+	-webkit-column-count:3;
+	column-count:3;
+	-webkit-column-gap:50px;
+	column-gap:50px;
+	-webkit-column-rule:1px solid black;
+	column-rule:1px solid black;
+	text-align: justify;
+	background: #f2f2f2;
+}
+
+#banner{
+	position: relative;
+	overflow: hidden;
+	max-height:400px;
+	margin: 1%; 
+	z-index: 0;
+}
+
+#banner h2{
+	text-align: center;
+	position: absolute;
+	color: white;
+	margin: 0px;
+	top: 50px;
+	width: 100%;
+}
+
+nav{
+	background: black;
+	padding: 0px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	z-index: 1;
+
+}
+nav ul:after{
+	content: "";
+	display: block;
+	clear: both;
+	}
+
+	nav li{
+	list-style-type: none;
+	color: white;
+	margin: 0 10px;
+	float: left;
+}
